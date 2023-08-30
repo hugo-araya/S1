@@ -1,6 +1,6 @@
 # Autor: Hugo Araya Carrasco
 def lee_datos(nombre):
-    ent = open(nombre)
+    ent = open(nombre)	
     cantidad = int(ent.readline().rstrip('\n'))
     linea1 = ent.readline().rstrip('\n').split(' ')
     linea2 = ent.readline().rstrip('\n').split(' ')
